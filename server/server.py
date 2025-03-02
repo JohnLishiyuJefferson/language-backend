@@ -81,10 +81,10 @@ def get_synthesized_audio():
     if not text:
         return jsonify({"error": "Missing 'text' parameter"}), 400
 
-    if use_ai:
-        return synthesize(text)
-    else:
-        return local_synthesize(text)
+    # if use_ai:
+    return synthesize(text)
+    # else:
+    #     return local_synthesize(text)
 
 
 if __name__ == '__main__':
