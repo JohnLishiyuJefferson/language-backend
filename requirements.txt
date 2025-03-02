@@ -163,7 +163,7 @@ pysbd
 python-crfsuite
 python-dateutil
 python-dotenv
-pyttsx3
+#pyttsx3
 pytz
 PyYAML
 pyzmq
@@ -209,7 +209,7 @@ tqdm
 trainer
 traitlets
 transformers
-TTS
+#TTS
 typeguard
 typer
 typing_extensions
