@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify, send_file, abort
 from flask_cors import CORS
 
 from LLM.DeepSeek应用 import ai_reply
-from aws.服务器请求aws通过文本生成语音 import local_synthesize, synthesize
+from aws.服务器请求aws通过文本生成语音 import synthesize
 from use.拆分句子并关联词典 import parse_sentence
 
 app = Flask(__name__)
