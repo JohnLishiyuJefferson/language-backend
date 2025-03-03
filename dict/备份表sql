@@ -1,0 +1,2 @@
+CREATE TABLE word_entry2 LIKE word_entry;
+INSERT INTO word_entry2 SELECT * FROM word_entry;
