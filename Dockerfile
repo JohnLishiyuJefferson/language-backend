@@ -11,4 +11,4 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # 指定启动命令（假设你的主程序是 app.py）
-CMD ["python", "/Users/C5389057/PycharmProjects/server/server.py"]
+CMD ["python", "server.py"]
